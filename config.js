@@ -66,13 +66,13 @@ const CONFIG = {
 		{
 			id: '3',
 			name: 'Notion',
-			icon: 'notion',
+			icon: 'pencil',
 			link: 'https://notion.so',
 		},
 		{
 			id: '4',
 			name: 'Mail',
-			icon: 'google',
+			icon: 'chrome',
 			link: 'https://mail.google.com',
 		},
 		{
@@ -84,7 +84,7 @@ const CONFIG = {
 		{
 			id: '6',
 			name: 'Spotify',
-			icon: 'spotify',
+			icon: 'music',
 			link: 'https://open.spotify.com',
 		},
 	],
