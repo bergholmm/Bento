@@ -13,8 +13,8 @@ const CONFIG = {
 	// General
 	name: 'Marcus',
 	imageBackground: false,
-	openInNewTab: true,
-	twelveHourFormat: false,
+	openInNewTab: false,
+	twelveHourFormat: true,
 
 	// Greetings
 	greetingMorning: 'Good morning!',
@@ -27,7 +27,7 @@ const CONFIG = {
 
 	// Weather
 	weatherKey: '7a4d321b8908754795ca3d7fbb45fc7a', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherIcons: 'Nord', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
@@ -65,14 +65,14 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Notion',
+			icon: 'notion',
+			link: 'https://notion.so',
 		},
 		{
 			id: '4',
 			name: 'Mail',
-			icon: 'mail',
+			icon: 'google',
 			link: 'https://mail.google.com',
 		},
 		{
@@ -83,9 +83,9 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'Jira',
-			icon: 'jira',
-			link: 'https://start.atlassian.com',
+			name: 'Spotify',
+			icon: 'spotify',
+			link: 'https://open.spotify.com',
 		},
 	],
 
@@ -161,21 +161,21 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
-				},
-				{
 					name: 'Reddit',
 					link: 'https://www.reddit.com',
 				},
 				{
-					name: 'Swec',
-					link: 'https://www.sweclockers.com',
+					name: 'The Verge',
+					link: 'https://www.theverge.com',
 				},
 				{
-					name: 'FZ',
-					link: 'https://www.fz.se',
+					name: 'Polygon',
+					link: 'https://www.polygon.com',
 				},
+				{
+					name: 'Swec',
+					link: 'https://www.sweclockers.com',
+				}
 			],
 		},
 	],
